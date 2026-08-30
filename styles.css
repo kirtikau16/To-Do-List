@@ -47,14 +47,14 @@ justify-content:center;
     gap:10px;
 }
 
-.input-box{
+#input-box{
     border:0;
     border-radius:10px;
     padding:10px 20px;
     width:100%;
 }
 
-.add-btn{
+.row button{
     border:0;
     background-color:#002765;
     color:#fff;
@@ -92,4 +92,19 @@ ul li.checked{
 
 ul li.checked::before{
     background-image: url(img/checked\ \(1\).png);
+}
+ul li span{
+    position:absolute;
+    right:0;
+    top:5px;
+    width:40px;
+    height:40px;
+    font-size:30px;
+    color:#002765;
+    border-radius:50%;
+    align-items:center;
+}
+
+ul li span:hover{
+    background:#aec4e9;
 }
